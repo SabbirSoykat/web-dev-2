@@ -1,11 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-
-
-}
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -14,10 +6,10 @@ body {
 
 .btn-primary {
     border-radius: 5px;
-    background: #F15B22;
+    background: #FFF;
     border: 0;
     padding: 15px 35px;
-    color: #FFF;
+    color: #005FAC;
     text-align: right;
 
     font-size: 20px;
@@ -56,18 +48,26 @@ body {
 
 }
 
-.banner-greeting{
-    color: #151414;
+.banner-greeting {
+    color: #FFF;
     font-size: 65px;
     font-weight: 700;
     width: 525px;
-   
+
 
 }
 
-.banner-greeting,.p-tag
-{
-  margin-bottom: 24px;
+.banner-greeting {
+    margin-bottom: 24px;
+}
+
+.p-tag {
+    margin-bottom: 24px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
@@ -82,55 +82,124 @@ main section {
 
 }
 
-.checkbox-none
-{
+.checkbox-none {
     color: #444343;
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
-.middle-section{
+.middle-section {
 
     display: flex;
     gap: 50px;
 
 }
 
-.sideclass
-{
+.sideclass {
 
-    margin-left:200px;
+    margin-left: 200px;
     padding-top: 256px;
-  
+
 
 }
 
 
-.person
-{
-    width:451pxpx;
-    height:700.29px;
-    border-radius:527.929px;
-   background: rgba(241, 91, 34, 0.20);
-   margin-left: 228px;
+.person {
+    width: 451pxpx;
+    height: 700.29px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    margin-left: 228px;
 }
 
-.h-tag
-{
+.h-tag {
     width: 288px;
     color: #151414;
-font-size: 40px;
-font-weight: 700;
-margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
 
-.pp-tag{
+.pp-tag {
 
     margin-bottom: 24px;
 
 
 }
 
+.section-title {
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+
+}
+
+.skill-description {
+    color: #757575;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+
+.pic-container {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    padding-top: 64px;
+
+
+
+}
+
+.pic-title {
+
+    width: 459px;
+
+    color: #FFF;
+
+    font-size: 40px;
+
+    font-weight: 700;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.button-pic {
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    padding: 15px 35px;
+    color: #005FAC;
+   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    
+    margin-left: ;
+}
