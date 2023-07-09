@@ -71,11 +71,6 @@ body {
 }
 
 
-main {
-    width: 1600px;
-    height: 808px;
-}
-
 main section {
     margin-top: 130px;
     background: #FFF;
@@ -131,13 +126,16 @@ main section {
 }
 
 .section-title {
-    color: var(--dark-01, #151414);
+    color: #F8F8F8;
     text-align: center;
-    font-family: Work Sans;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.section-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
 }
 
 .skill-container {
@@ -164,42 +162,79 @@ main section {
 }
 
 
-.pic-container {
+.section {
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     margin-left: 230px;
-    padding-top: 64px;
-
+    padding-bottom: 100px;
 
 
 }
 
 .pic-title {
 
-    width: 459px;
 
     color: #FFF;
-
+    font-family: Work Sans;
     font-size: 40px;
-
+    font-style: normal;
     font-weight: 700;
-    margin-right: 50px;
-    padding-top: 10px;
+    margin-left: 110px;
+    padding-top: 50px;
+
 }
 
 .button-pic {
-    margin-top: 10px;
-    border-radius: 5px;
-    background: #FFF;
-    border: 0;
+    width: 160px;
+    height: 64px;
+    border: 0px;
     padding: 15px 35px;
     color: #005FAC;
-   
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    
-    margin-left: ;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    margin-left: 110px;
+
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    box-shadow: 0px 0px 10px 5px rgb(239, 237, 242);
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+   
+
+.btn-footer {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
